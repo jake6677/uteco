@@ -1,0 +1,148 @@
+html {
+    margin : 0px;
+    height : 100%;
+}
+
+body {
+    margin : 0px;
+    padding-left : 30px;
+    height : 100%;
+}
+.layout {
+    width: 1247.33px;
+    height : 100%;
+}
+
+.titleBox {
+    width: 1210px;
+    height: 65px;
+    background-color: white;
+    border-bottom: 0.8px groove rgb(255, 188, 188);
+    color: rgb(255, 188, 188);
+    display:grid;
+    grid-template-columns: 1fr auto;
+    position : fixed;
+}
+
+.titleName {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#select {
+    color : rgb(156, 156, 156);
+    border : 1px solid rgb(255, 188, 188);
+    padding: 2px 3px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-right: 8px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#select option {
+    font-family: 'Nanum Gothic', sans-serif;
+    background: rgb(255, 188, 188);
+    color: #fff;
+    padding: 3px 0;
+}
+
+.uploadBotton {
+    margin-top : 5px;
+    display : block;
+    float: right;
+    color: rgb(254, 118, 118);
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    font-size : 40px;
+    text-align: center;
+}
+
+.uploadBotton:hover {
+    color : white;
+    background-color: rgb(254, 118, 118);
+    border-radius: 20%;
+}
+
+.photoLayout {
+    padding-top: 80px;
+    width: 1200px;
+    height: 100%;
+    padding-left: 6px;
+}
+
+.photo {
+    box-sizing: border-box;
+    margin: 2px;
+    width: 196px;
+    height: 196px;
+    float: left;
+}
+
+.img {
+    width: 196px;
+    height: 196px;
+    border-radius: 10px;
+    object-fit : cover;
+}
+
+@media (max-width:1180px) {
+    .photoLayout {
+        width: 1000px;
+    }
+
+    .line {
+        width: 1000px;
+    }
+
+    .titleBox {
+        width: 1010px;
+    }
+}
+
+
+@media (max-width:980px) {
+    .photoLayout {
+        width: 800px;
+    }
+
+    .line {
+        width: 800px;
+    }
+
+    .titleBox {
+        width: 810px;
+    }
+}
+
+@media (max-width:780px) {
+    .photoLayout {
+        width: 600px;
+    }
+
+    .line {
+        width: 600px;
+    }
+
+    .titleBox {
+        width: 610px;
+    }
+}
+
+@media (max-width:580px) {
+    .photoLayout {
+        width: 400px;
+    }
+
+    .line {
+        width: 400px;
+    }
+
+    .titleBox {
+        width: 410px;
+    }
+}
